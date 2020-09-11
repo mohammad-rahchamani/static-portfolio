@@ -24,8 +24,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
+        name = "Mohammad Rahchamani"
+        tagline = "Software Engineer"
         avatar = "avatar.png"
 
 
@@ -36,20 +36,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Tehran, Iran"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "0123 4567 890"
+        text = "0098 901 4943114"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
+        text = "mohammad.rahchamani@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.yourwebsite.com"
+        text = "www.rahchamani.me"
 
 
 
