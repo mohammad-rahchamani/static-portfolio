@@ -1,0 +1,3 @@
+[submodule "themes/hugo-devresume-theme"]
+	path = themes/hugo-devresume-theme
+	url = git@github.com:mohammad-rahchamani/hugo-devresume-theme.git
