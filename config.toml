@@ -187,41 +187,71 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Full Stack Engineer"
         dates = "Sep 2019 - Present"
         company = "BetterSleep"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        details = "We built sleep tracker and smart alarm applications (BetterSleep and Good Sleep) for iOS and WatchOS. As a full-stack developer, I had to communicate with the product manager to understand and meet marketing needs and deadlines. I also have to communicate with our designer to fine-tune the details of our app to create a seamless user experience. Collaborating closely with the product, marketing, and the design team helped me to get better at communication. I had the opportunity to work with the latest technologies in the Apple ecosystem."
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Developed multiple MVPs to help the product team with the decisions"
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Took responsibility for the product from scratch"
         [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "Developed iOS and WatchOS apps with SwiftUI"
+        [[params.experience.list.items]]
+        details = "Developed Python backend to serve users and sync data"
+        [[params.experience.list.items]]
+        details = "Used PostgresQL as our database"
+        [[params.experience.list.items]]
+        details = "Used AWS to deploy our backend and database"
+        [[params.experience.list.items]]
+        details = "Used iOS 13+ and WatchOS 6+ features"
 
         [[params.experience.list]]
         title = "Freelance Software Developer"
         dates = "Apr 2017 - Oct 2019"
         company = "-"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        details = "I worked on a wide range of projects to expand my knowledge and expertise in new areas. Working with people from different domains helped me to better understand different customer needs and change my perspective more easily."
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Developed AI based Forex trading bot with MQL, RabbitMQ and Python"
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Developed multiple bots with JavaScript and Python"
+        [[params.experience.list.items]]
+        details = "Developed mobile application with ReactNative"
 
         [[params.experience.list]]
         title = "iOS Developer"
         dates = "Mar 2016 - Nov 2016"
         company = "Pichak"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        details = "I worked on applications with millions of daily active users(Betternet and Hexatech). We were on top of the charts in App Store with 4.5+ rating. I got to know about analytic tools and user experience design as well as some of product design methods. I had the opportunity to work with great engineers and I learned a lot from them."
+        [[params.experience.list.items]]
+        details = "Experienced serving large user base"
+        [[params.experience.list.items]]
+        details = "Implemented our custom VPN protocol on our iOS app"
+        [[params.experience.list.items]]
+        details = "Set up Jenkins Server for CI/CD"
+        [[params.experience.list.items]]
+        details = "Experienced working on legacy code on large projects"
 
         [[params.experience.list]]
         title = "Full Stack Engineer"
         dates = "May 2015 - Feb 2016"
         company = "Holimo"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        details = "I worked on a trivia game on android. It was a multi player, online game in which users had to guess the distorted image, with some hints."
+        [[params.experience.list.items]]
+        details = "Worked on a native android trivia game"
+        [[params.experience.list.items]]
+        details = "Used socket programming for server communication"
+        [[params.experience.list.items]]
+        details = "Implemented custom Image manipulation algorithms on client"
 
         [[params.experience.list]]
         title = "Software Developer"
         dates = "Dec 2013 - May 2015"
         company = "ATD"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        details = "We were building mobile applications for our customers and the thech stack for each project was depending on the requirements of the customer. I worked on native android and iOS applications as well as hybird apps using phonegap. I also worked on our backend team where we developed our APIs using node.js."
+        [[params.experience.list.items]]
+        details = "Lead our internal tools development team"
+        [[params.experience.list.items]]
+        details = "Developed customizable platform to generate API code"
+        [[params.experience.list.items]]
+        details = "Developed multiple native and hybrid apps"
 
 
 
@@ -233,7 +263,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
@@ -260,7 +290,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
