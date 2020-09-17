@@ -2,7 +2,7 @@
 
 baseURL = "http://example.org/"
 languageCode = "en"
-title = ""
+title = "Mohammad Rahchamani's resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -26,7 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Mohammad Rahchamani"
         tagline = "Software Engineer"
-        avatar = "avatar.png"
+        avatar = "avatar.webp"
 
 
 
@@ -58,35 +58,59 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.skills]
-        enable = false
-
+        enable = true
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        title = "Swift/Objective-C"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        title = "Java/Kotlin"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        title = "JavaScript/Node.js/Express.js/koa.js/Adonis.js/Sequelize.js"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        title = "Python/Django/Flask/SqlAlchemy"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
+        title = "Docker/AWS"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
+        title = "TensorFlow/Keras/Pandas/Numpy/Scikit-learn"
         [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        title = "PostgreSQL/MySQL/SQLite/MongoDB/Redis/GraphQL"
+        [[params.skills.list.items]]
+        title = "HTML/CSS/Bootstrap/Foundation/Tailwind"
+        [[params.skills.list.items]]
+        title = "Software Architecture/Design Patterns"
+        [[params.skills.list.items]]
+        title = "Linux/Shell/Git"
+        [[params.skills.list.items]]
+        title = "Mobile application development"
+        [[params.skills.list.items]]
+        title = "API design and implementation"
+        [[params.skills.list.items]]
+        title = "Design and implement database structures"
+        [[params.skills.list.items]]
+        title = "Lead and deliver complex software systems"
 
         [[params.skills.list]]
         title = "Professional"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        title = "Effective communication"
         [[params.skills.list.items]]
-        details = "Team player"
+        title = "Teamwork"
         [[params.skills.list.items]]
-        details = "Strong problem solver"
+        title = "Leadership"
         [[params.skills.list.items]]
-        details = "Good time management"
+        title = "Problem solving"
+        [[params.skills.list.items]]
+        title = "Numeracy"
+        [[params.skills.list.items]]
+        title = "Creative thinking"
+        [[params.skills.list.items]]
+        title = "Time management"
+        [[params.skills.list.items]]
+        title = "Self motivated"
+        [[params.skills.list.items]]
+        title = "Business awareness"
+        
 
 
 
@@ -171,7 +195,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Highly motivated, self-managed software developer with experience in a wide variety of different technologies. Team player with leadership skills, able to make technical decisions, communicate and take responsibility for the team. Built products from scratch and worked on big projects. A constant learner who is willing to learn from others, tackle difficulties and solve problems. Able to change the viewpoint from big-picture to focusing on details based on the product requirements and development stage."
+        text = "Highly motivated, self-managed software developer with experience in a wide variety of different technologies. Team player with leadership skills, able to make technical decisions, communicate and take responsibility for the team. Built products from scratch and worked on big projects. A constant learner with a growth mindset who is willing to learn from others, tackle difficulties, and solve problems. Able to change the viewpoint from big-picture to focusing on details based on the product requirements and development stage."
 
 
 
@@ -187,7 +211,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Full Stack Engineer"
         dates = "Sep 2019 - Present"
         company = "BetterSleep"
-        details = "We built sleep tracker and smart alarm applications (BetterSleep and Good Sleep) for iOS and WatchOS. As a full-stack developer, I had to communicate with the product manager to understand and meet marketing needs and deadlines. I also have to communicate with our designer to fine-tune the details of our app to create a seamless user experience. Collaborating closely with the product, marketing, and the design team helped me to get better at communication. I had the opportunity to work with the latest technologies in the Apple ecosystem."
+        details = "We built sleep tracker and smart alarm applications for iOS and WatchOS. As a full-stack developer, I had to communicate with the product manager to understand and meet marketing needs and deadlines. I also had to communicate with our designer to fine-tune the details of our app to create a seamless user experience. Collaborating closely with the product, marketing, and the design team helped me to get better at communication. I had the opportunity to work with the latest technologies in the Apple ecosystem."
         [[params.experience.list.items]]
         details = "Developed multiple MVPs to help the product team with the decisions"
         [[params.experience.list.items]]
@@ -195,13 +219,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Developed iOS and WatchOS apps with SwiftUI"
         [[params.experience.list.items]]
-        details = "Developed Python backend to serve users and sync data"
-        [[params.experience.list.items]]
-        details = "Used PostgresQL as our database"
-        [[params.experience.list.items]]
-        details = "Used AWS to deploy our backend and database"
-        [[params.experience.list.items]]
-        details = "Used iOS 13+ and WatchOS 6+ features"
+        details = "Developed a backend to serve users, process payments and sync data"
 
         [[params.experience.list]]
         title = "Freelance Software Developer"
@@ -211,23 +229,25 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Developed AI based Forex trading bot with MQL, RabbitMQ and Python"
         [[params.experience.list.items]]
-        details = "Developed multiple bots with JavaScript and Python"
+        details = "Experienced building prototypes with embedded computers"
         [[params.experience.list.items]]
-        details = "Developed mobile application with ReactNative"
+        details = "Developed multiple chat bots with JavaScript and Python"
+        [[params.experience.list.items]]
+        details = "Developed mobile applications with ReactNative"
 
         [[params.experience.list]]
         title = "iOS Developer"
         dates = "Mar 2016 - Nov 2016"
         company = "Pichak"
-        details = "I worked on applications with millions of daily active users(Betternet and Hexatech). We were on top of the charts in App Store with 4.5+ rating. I got to know about analytic tools and user experience design as well as some of product design methods. I had the opportunity to work with great engineers and I learned a lot from them."
+        details = "I worked on applications with millions of daily active users(Betternet and Hexatech). We were on top of the charts in the App Store with a 4.5+ rating. I got to know about analytic tools and user experience design as well as some of product design methods. I had the opportunity to work with great engineers and I learned a lot from them."
         [[params.experience.list.items]]
-        details = "Experienced serving large user base"
+        details = "Experienced serving a large user base"
         [[params.experience.list.items]]
-        details = "Implemented our custom VPN protocol on our iOS app"
+        details = "Implemented our custom VPN protocol on the client"
         [[params.experience.list.items]]
-        details = "Set up Jenkins Server for CI/CD"
+        details = "Improved app stability by writing tests and setting up a Jenkins server for CI/CD"
         [[params.experience.list.items]]
-        details = "Experienced working on legacy code on large projects"
+        details = "Experienced working on legacy code of large projects"
 
         [[params.experience.list]]
         title = "Full Stack Engineer"
@@ -235,11 +255,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Holimo"
         details = "I worked on a trivia game on android. It was a multi player, online game in which users had to guess the distorted image, with some hints."
         [[params.experience.list.items]]
-        details = "Worked on a native android trivia game"
+        details = "Created a native android trivia game"
         [[params.experience.list.items]]
-        details = "Used socket programming for server communication"
+        details = "Enhanced client server communication using socket programming"
         [[params.experience.list.items]]
         details = "Implemented custom Image manipulation algorithms on client"
+        [[params.experience.list.items]]
+        details = "Co-ordinated with the design team to deliver a better user experience"
 
         [[params.experience.list]]
         title = "Software Developer"
@@ -247,11 +269,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "ATD"
         details = "We were building mobile applications for our customers and the thech stack for each project was depending on the requirements of the customer. I worked on native android and iOS applications as well as hybird apps using phonegap. I also worked on our backend team where we developed our APIs using node.js."
         [[params.experience.list.items]]
-        details = "Lead our internal tools development team"
-        [[params.experience.list.items]]
-        details = "Developed customizable platform to generate API code"
-        [[params.experience.list.items]]
         details = "Developed multiple native and hybrid apps"
+        [[params.experience.list.items]]
+        details = "Led our internal tools development team"
+        [[params.experience.list.items]]
+        details = "Trained new team members"
+        [[params.experience.list.items]]
+        details = "Organized multi-platform projects"
+        [[params.experience.list.items]]
+        details = "Negotiated with customers to better understand their needs"
+        
 
 
 
@@ -263,24 +290,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-
+        title = "KN2C"
+        meta = "Khajeh Nasireddin Toosi University"
+        tagline = "I was the lead software developer in our SSL(Small Size League) robotic team. We developed our agents' decision making system and Co-ordinated with our hardware team. "
 
 
 
@@ -313,18 +328,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.social]
         enable = true
 
+
         [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        icon = "fab fa-stack-overflow"
+        url = "//stackoverflow.com/users/2810741/mohammad-rahchamani"
+        title = "StackOverflow account"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/mohammad-rahchamani"
+        title = "LinkedIn account"
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        icon = "fab fa-github-square"
+        url = "//github.com/mohammad-rahchamani"
+        title = "Github account"
 
 
 
