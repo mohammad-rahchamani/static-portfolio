@@ -19,7 +19,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
-
+    pdf = "assets/resume.pdf"
 
 
     [params.profile]
@@ -78,9 +78,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         title = "HTML/CSS/Bootstrap/Foundation/Tailwind"
         [[params.skills.list.items]]
-        title = "Software Architecture/Design Patterns"
-        [[params.skills.list.items]]
         title = "Linux/Shell/Git"
+        [[params.skills.list.items]]
+        title = "Software Architecture/Design Patterns"
         [[params.skills.list.items]]
         title = "Mobile application development"
         [[params.skills.list.items]]
@@ -99,7 +99,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         title = "Leadership"
         [[params.skills.list.items]]
-        title = "Problem solving"
+        title = "Problem-solving"
         [[params.skills.list.items]]
         title = "Numeracy"
         [[params.skills.list.items]]
@@ -107,7 +107,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         title = "Time management"
         [[params.skills.list.items]]
-        title = "Self motivated"
+        title = "Self-motivated"
         [[params.skills.list.items]]
         title = "Business awareness"
         
@@ -227,19 +227,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "-"
         details = "I worked on a wide range of projects to expand my knowledge and expertise in new areas. Working with people from different domains helped me to better understand different customer needs and change my perspective more easily."
         [[params.experience.list.items]]
-        details = "Developed AI based Forex trading bot with MQL, RabbitMQ and Python"
+        details = "Developed AI-based Forex trading bot with MQL, RabbitMQ, and Python"
         [[params.experience.list.items]]
         details = "Experienced building prototypes with embedded computers"
         [[params.experience.list.items]]
-        details = "Developed multiple chat bots with JavaScript and Python"
+        details = "Developed multiple chatbots with JavaScript and Python"
         [[params.experience.list.items]]
         details = "Developed mobile applications with ReactNative"
 
         [[params.experience.list]]
         title = "iOS Developer"
         dates = "Mar 2016 - Nov 2016"
-        company = "Pichak"
-        details = "I worked on applications with millions of daily active users(Betternet and Hexatech). We were on top of the charts in the App Store with a 4.5+ rating. I got to know about analytic tools and user experience design as well as some of product design methods. I had the opportunity to work with great engineers and I learned a lot from them."
+        company = "Betternet"
+        details = "I worked on applications with millions of daily active users(Betternet and Hexatech). We were on top of the charts in the App Store with a 4.5+ rating. I got to know about analytic tools and user experience design as well as some product design methods. I had the opportunity to work with great engineers and I learned a lot from them."
         [[params.experience.list.items]]
         details = "Experienced serving a large user base"
         [[params.experience.list.items]]
@@ -253,13 +253,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Full Stack Engineer"
         dates = "May 2015 - Feb 2016"
         company = "Holimo"
-        details = "I worked on a trivia game on android. It was a multi player, online game in which users had to guess the distorted image, with some hints."
+        details = "I worked on a trivia game on android. It was a multiplayer, online game in which users had to guess the distorted image, with some hints."
         [[params.experience.list.items]]
-        details = "Created a native android trivia game"
+        details = "Created a native android game"
         [[params.experience.list.items]]
-        details = "Enhanced client server communication using socket programming"
+        details = "Enhanced client-server communication using socket programming"
         [[params.experience.list.items]]
-        details = "Implemented custom Image manipulation algorithms on client"
+        details = "Implemented custom Image manipulation algorithms on the client"
         [[params.experience.list.items]]
         details = "Co-ordinated with the design team to deliver a better user experience"
 
@@ -267,7 +267,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Software Developer"
         dates = "Dec 2013 - May 2015"
         company = "ATD"
-        details = "We were building mobile applications for our customers and the thech stack for each project was depending on the requirements of the customer. I worked on native android and iOS applications as well as hybird apps using phonegap. I also worked on our backend team where we developed our APIs using node.js."
+        details = "We were building mobile applications for our customers and the tech stack for each project was depending on the requirements of the customer. I worked on native android and iOS applications as well as hybrid apps using PhoneGap. I also worked on our backend team where we developed our APIs using node.js."
         [[params.experience.list.items]]
         details = "Developed multiple native and hybrid apps"
         [[params.experience.list.items]]
