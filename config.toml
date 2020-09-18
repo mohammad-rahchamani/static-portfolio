@@ -19,7 +19,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
-    pdf = "assets/resume.pdf"
+    pdf = "assets/Mohammad Rahchamani Resume.pdf"
 
 
     [params.profile]
@@ -66,17 +66,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         title = "Java/Kotlin"
         [[params.skills.list.items]]
-        title = "JavaScript/Node.js/Express.js/koa.js/Adonis.js/Sequelize.js"
+        title = "JavaScript/ReactNative/Node.js"
         [[params.skills.list.items]]
         title = "Python/Django/Flask/SqlAlchemy"
         [[params.skills.list.items]]
         title = "Docker/AWS"
         [[params.skills.list.items]]
-        title = "TensorFlow/Keras/Pandas/Numpy/Scikit-learn"
-        [[params.skills.list.items]]
         title = "PostgreSQL/MySQL/SQLite/MongoDB/Redis/GraphQL"
         [[params.skills.list.items]]
-        title = "HTML/CSS/Bootstrap/Foundation/Tailwind"
+        title = "HTML/CSS"
         [[params.skills.list.items]]
         title = "Linux/Shell/Git"
         [[params.skills.list.items]]
