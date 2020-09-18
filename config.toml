@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://rahchamani.me/"
+baseURL = "https://mohammad-rahchamani.github.io/"
 languageCode = "en"
 title = "Mohammad Rahchamani's resume"
 theme = "hugo-devresume-theme"
